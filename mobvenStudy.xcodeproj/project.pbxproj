@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		244D4BB12009F1F80090D99C /* city.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244D4BB02009F1F80090D99C /* city.swift */; };
+		244D4BB3200A0CE40090D99C /* city.list.json in Resources */ = {isa = PBXBuildFile; fileRef = 244D4BB2200A0CE40090D99C /* city.list.json */; };
+		249FD2B2200BC1F00061B2FD /* iconHistory.png in Resources */ = {isa = PBXBuildFile; fileRef = 249FD2B1200BC1F00061B2FD /* iconHistory.png */; };
+		249FD2B4200BC6E40061B2FD /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249FD2B3200BC6E40061B2FD /* HistoryTableViewController.swift */; };
+		249FD2B9200BF3040061B2FD /* historySearch.plist in Resources */ = {isa = PBXBuildFile; fileRef = 249FD2B8200BF3040061B2FD /* historySearch.plist */; };
 		24A1F30C2008A9230024C689 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A1F30B2008A9230024C689 /* AppDelegate.swift */; };
-		24A1F30E2008A9230024C689 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A1F30D2008A9230024C689 /* ViewController.swift */; };
 		24A1F3112008A9230024C689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24A1F30F2008A9230024C689 /* Main.storyboard */; };
 		24A1F3132008A9230024C689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24A1F3122008A9230024C689 /* Assets.xcassets */; };
 		24A1F3162008A9230024C689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24A1F3142008A9230024C689 /* LaunchScreen.storyboard */; };
+		24EFC01A200AA8B3001EAF59 /* Citytheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EFC019200AA8B3001EAF59 /* Citytheme.swift */; };
+		24EFC01C200AA910001EAF59 /* SearchFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EFC01B200AA910001EAF59 /* SearchFooter.swift */; };
+		24EFC01E200AAA04001EAF59 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EFC01D200AAA04001EAF59 /* MasterViewController.swift */; };
+		24EFC020200AAC0B001EAF59 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EFC01F200AAC0B001EAF59 /* DetailViewController.swift */; };
+		AE0D146113386984A0DAD92B /* Pods_mobvenStudy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372918280ABEEBC7D51CD307 /* Pods_mobvenStudy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		244D4BB02009F1F80090D99C /* city.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = city.swift; sourceTree = "<group>"; };
+		244D4BB2200A0CE40090D99C /* city.list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = city.list.json; sourceTree = "<group>"; };
+		249FD2B1200BC1F00061B2FD /* iconHistory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconHistory.png; sourceTree = "<group>"; };
+		249FD2B3200BC6E40061B2FD /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		249FD2B8200BF3040061B2FD /* historySearch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = historySearch.plist; sourceTree = "<group>"; };
 		24A1F3082008A9230024C689 /* mobvenStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobvenStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24A1F30B2008A9230024C689 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24A1F30D2008A9230024C689 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		24A1F3102008A9230024C689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24A1F3122008A9230024C689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24A1F3152008A9230024C689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24A1F3172008A9230024C689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24EFC019200AA8B3001EAF59 /* Citytheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Citytheme.swift; sourceTree = "<group>"; };
+		24EFC01B200AA910001EAF59 /* SearchFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFooter.swift; sourceTree = "<group>"; };
+		24EFC01D200AAA04001EAF59 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		24EFC01F200AAC0B001EAF59 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		372918280ABEEBC7D51CD307 /* Pods_mobvenStudy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mobvenStudy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B77A131AB10CE5A11475A9 /* Pods-mobvenStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobvenStudy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mobvenStudy/Pods-mobvenStudy.debug.xcconfig"; sourceTree = "<group>"; };
+		C165ADD35BD98F5D97A68456 /* Pods-mobvenStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobvenStudy.release.xcconfig"; path = "Pods/Target Support Files/Pods-mobvenStudy/Pods-mobvenStudy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE0D146113386984A0DAD92B /* Pods_mobvenStudy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		244D4BAD2009E9EF0090D99C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				244D4BB02009F1F80090D99C /* city.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		244D4BAE2009E9F90090D99C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				24EFC01D200AAA04001EAF59 /* MasterViewController.swift */,
+				24EFC01F200AAC0B001EAF59 /* DetailViewController.swift */,
+				249FD2B3200BC6E40061B2FD /* HistoryTableViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		244D4BAF2009EA0D0090D99C /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				249FD2B1200BC1F00061B2FD /* iconHistory.png */,
+				244D4BB2200A0CE40090D99C /* city.list.json */,
+				249FD2B8200BF3040061B2FD /* historySearch.plist */,
+			);
+			path = sources;
+			sourceTree = "<group>";
+		};
 		24A1F2FF2008A9230024C689 = {
 			isa = PBXGroup;
 			children = (
+				24EFC018200AA85F001EAF59 /* helper */,
+				24EFC017200AA832001EAF59 /* view */,
+				244D4BAF2009EA0D0090D99C /* sources */,
+				244D4BAE2009E9F90090D99C /* controller */,
+				244D4BAD2009E9EF0090D99C /* model */,
 				24A1F30A2008A9230024C689 /* mobvenStudy */,
 				24A1F3092008A9230024C689 /* Products */,
+				E15C12E2281AA9D9AB16D626 /* Pods */,
+				9C264A68BB5C14444A4569F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +111,45 @@
 			isa = PBXGroup;
 			children = (
 				24A1F30B2008A9230024C689 /* AppDelegate.swift */,
-				24A1F30D2008A9230024C689 /* ViewController.swift */,
 				24A1F30F2008A9230024C689 /* Main.storyboard */,
 				24A1F3122008A9230024C689 /* Assets.xcassets */,
 				24A1F3142008A9230024C689 /* LaunchScreen.storyboard */,
 				24A1F3172008A9230024C689 /* Info.plist */,
 			);
 			path = mobvenStudy;
+			sourceTree = "<group>";
+		};
+		24EFC017200AA832001EAF59 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				24EFC01B200AA910001EAF59 /* SearchFooter.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		24EFC018200AA85F001EAF59 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				24EFC019200AA8B3001EAF59 /* Citytheme.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		9C264A68BB5C14444A4569F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				372918280ABEEBC7D51CD307 /* Pods_mobvenStudy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E15C12E2281AA9D9AB16D626 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40B77A131AB10CE5A11475A9 /* Pods-mobvenStudy.debug.xcconfig */,
+				C165ADD35BD98F5D97A68456 /* Pods-mobvenStudy.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24A1F31A2008A9230024C689 /* Build configuration list for PBXNativeTarget "mobvenStudy" */;
 			buildPhases = (
+				A3121B429842C2D0FCEC18B3 /* [CP] Check Pods Manifest.lock */,
 				24A1F3042008A9230024C689 /* Sources */,
 				24A1F3052008A9230024C689 /* Frameworks */,
 				24A1F3062008A9230024C689 /* Resources */,
+				8012304C4CF031CFB8D07A32 /* [CP] Embed Pods Frameworks */,
+				BADBCE85A94B3124CA9F5015 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,21 +214,87 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				249FD2B9200BF3040061B2FD /* historySearch.plist in Resources */,
 				24A1F3162008A9230024C689 /* LaunchScreen.storyboard in Resources */,
+				244D4BB3200A0CE40090D99C /* city.list.json in Resources */,
 				24A1F3132008A9230024C689 /* Assets.xcassets in Resources */,
+				249FD2B2200BC1F00061B2FD /* iconHistory.png in Resources */,
 				24A1F3112008A9230024C689 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8012304C4CF031CFB8D07A32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-mobvenStudy/Pods-mobvenStudy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-SwiftyJSON/Alamofire_SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire_SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mobvenStudy/Pods-mobvenStudy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3121B429842C2D0FCEC18B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mobvenStudy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BADBCE85A94B3124CA9F5015 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mobvenStudy/Pods-mobvenStudy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		24A1F3042008A9230024C689 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24A1F30E2008A9230024C689 /* ViewController.swift in Sources */,
+				24EFC01C200AA910001EAF59 /* SearchFooter.swift in Sources */,
+				24EFC01E200AAA04001EAF59 /* MasterViewController.swift in Sources */,
+				244D4BB12009F1F80090D99C /* city.swift in Sources */,
+				24EFC01A200AA8B3001EAF59 /* Citytheme.swift in Sources */,
+				249FD2B4200BC6E40061B2FD /* HistoryTableViewController.swift in Sources */,
 				24A1F30C2008A9230024C689 /* AppDelegate.swift in Sources */,
+				24EFC020200AAC0B001EAF59 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +429,7 @@
 		};
 		24A1F31B2008A9230024C689 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40B77A131AB10CE5A11475A9 /* Pods-mobvenStudy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +444,7 @@
 		};
 		24A1F31C2008A9230024C689 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C165ADD35BD98F5D97A68456 /* Pods-mobvenStudy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
